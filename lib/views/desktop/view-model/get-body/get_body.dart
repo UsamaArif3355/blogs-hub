@@ -6,12 +6,12 @@ import 'package:flutter/material.dart';
 class GetBody {
   const GetBody._();
   static Widget get({required int bodyPageId}) {
-    if (bodyPageId == 1) {
-      return const GamesPage();
-    } else if (bodyPageId == 2) {
+    if (bodyPageId == 0) {
       return const AboutUsPage();
-    } else {
+    } else if (bodyPageId == 1) {
       return const HomePageBody();
+    } else {
+      return const GamesPage();
     }
   }
 }

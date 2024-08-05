@@ -12,7 +12,7 @@ class HomeButton extends StatelessWidget {
     return CustomTextButton(
       appCubit: appCubit,
       text: ProjectKeys.home,
-      buttonId: 0,
+      buttonId: 1,
     );
   }
 }

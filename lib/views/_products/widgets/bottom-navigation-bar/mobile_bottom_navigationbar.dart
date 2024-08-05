@@ -30,7 +30,7 @@ class MobileBottomNavigationBar extends StatelessWidget {
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.contact_phone_outlined),
-            label: ProjectKeys.aboutUs,
+            label: ProjectKeys.blogs,
           ),
         ],
       ),

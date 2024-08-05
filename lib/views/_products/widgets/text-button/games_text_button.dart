@@ -12,7 +12,7 @@ class GamesButton extends StatelessWidget {
     return CustomTextButton(
       appCubit: appCubit,
       text: ProjectKeys.games,
-      buttonId: 1,
+      buttonId: 2,
     );
   }
 }

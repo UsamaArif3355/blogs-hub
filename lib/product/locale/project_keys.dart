@@ -2,7 +2,7 @@ abstract class ProjectKeys {
   static const appName = "DORILLA GAMES";
   static const home = "Home";
   static const games = "Games";
-  static const aboutUs = "About Us";
+  static const blogs = "Blogs";
   static const welcomeTitle = "Welcome to the thrilling world of Dorilla Games!";
   static const welcomeContent =
       "Get ready to embark on a journey through the realm of mobile apps. Our team of professionals works tirelessly to bring your imagination to life and create apps that cater to your needs. We strive to achieve the highest level of customer satisfaction, regardless of day or night. Experience unforgettable moments and delight your users with Dorilla Games, where we bring your ideas to life!";

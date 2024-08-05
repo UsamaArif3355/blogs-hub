@@ -24,11 +24,11 @@ class AppBarNavBar extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             const Spacer(flex: 3),
+            AboutUsButton(appCubit: appCubit),
+            const Spacer(flex: 1),
             HomeButton(appCubit: appCubit),
             const Spacer(flex: 1),
             GamesButton(appCubit: appCubit),
-            const Spacer(flex: 1),
-            AboutUsButton(appCubit: appCubit),
             const Spacer(flex: 3),
           ],
         ),

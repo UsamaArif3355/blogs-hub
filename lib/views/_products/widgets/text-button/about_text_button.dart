@@ -11,8 +11,8 @@ class AboutUsButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return CustomTextButton(
       appCubit: appCubit,
-      text: ProjectKeys.aboutUs,
-      buttonId: 2,
+      text: ProjectKeys.blogs,
+      buttonId: 0,
     );
   }
 }

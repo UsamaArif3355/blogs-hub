@@ -28,6 +28,7 @@ dependencies:
 
   # svg
   flutter_svg:
+  intl: ^0.19.0
 
   # url launch
   url_launcher: ^6.1.11

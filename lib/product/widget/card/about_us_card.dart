@@ -7,6 +7,6 @@ class AboutUsCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const TitleMediumCard(text: ProjectKeys.aboutUs);
+    return const TitleMediumCard(text: ProjectKeys.blogs);
   }
 }

@@ -12,7 +12,8 @@ class DesktopWelcomeContent extends StatelessWidget {
     return SizedBox(
       width: context.halfWidth,
       height: context.desktopBodyHeight,
-      child: Column(
+      child:
+      Column(
         children: const [
           Spacer(flex: 6),
           DesktopWelcomeTitleCard(),

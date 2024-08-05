@@ -9,7 +9,7 @@ class EmailSenderCubit extends Cubit<IEmailSenderState> {
   void sendEmail(ContactModel model) async {
     try {
       emit(EmailSenderLoadingState());
-      await EmailSender(contactModel: model).sendEmail();
+      // await EmailSender(contactModel: model).sendEmail();
       emit(EmailSenderCompletedState());
     } catch (e) {
       emit(EmailSenderErrorState());

@@ -7,6 +7,6 @@ class AboutUsCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const CardTitleLargeText(text: ProjectKeys.aboutUs);
+    return const CardTitleLargeText(text: ProjectKeys.blogs);
   }
 }
