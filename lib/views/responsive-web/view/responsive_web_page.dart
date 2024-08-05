@@ -11,11 +11,6 @@ class ResponsiveWebPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: '/',
-      routes: {
-        '/': (context) => DesktopView(),
-        './': (context) => DesktopView(),
-      },
       home: SafeArea(
         child: Scaffold(
           body: Center(

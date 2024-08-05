@@ -1,4 +1,4 @@
-import 'package:carousel_slider/carousel_slider.dart';
+import 'package:carousel_slider/carousel_slider.dart' as slider;
 import 'package:dorilla_games/core/components/card/card_smile_title_text.dart';
 import 'package:dorilla_games/core/components/card/title_medium_card.dart';
 import 'package:dorilla_games/core/extension/context/context_extension.dart';
@@ -32,9 +32,9 @@ class GameContentSample extends StatelessWidget {
               SizedBox(
                 height: 300,
                 width: context.widthFourty,
-                child: CarouselSlider(
+                child: slider.CarouselSlider(
                   items: images,
-                  options: CarouselOptions(
+                  options: slider.CarouselOptions(
                     autoPlay: true,
                     viewportFraction: 1,
                     aspectRatio: 1.3,

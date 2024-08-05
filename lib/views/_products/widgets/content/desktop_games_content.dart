@@ -1,4 +1,4 @@
-import 'package:carousel_slider/carousel_slider.dart';
+import 'package:carousel_slider/carousel_slider.dart' as slider;
 import 'package:dorilla_games/core/extension/context/context_extension.dart';
 import 'package:dorilla_games/core/extension/padding/project_pads.dart';
 import 'package:dorilla_games/views/_products/widgets/card/games_content_card.dart';
@@ -22,9 +22,9 @@ class DesktopGamesContent extends StatelessWidget {
         SizedBox(
           height: context.carouselSliderHeight,
           width: context.carouselSliderWidth,
-          child: CarouselSlider(
+          child:slider. CarouselSlider(
             items: images,
-            options: CarouselOptions(
+            options:slider. CarouselOptions(
               autoPlay: true,
               viewportFraction: 1,
             ),
