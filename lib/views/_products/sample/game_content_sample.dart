@@ -1,4 +1,4 @@
-import 'package:carousel_slider/carousel_slider.dart' as slider;
+// import 'package:carousel_slider/carousel_slider.dart' as slider;
 import 'package:dorilla_games/core/components/card/card_smile_title_text.dart';
 import 'package:dorilla_games/core/components/card/title_medium_card.dart';
 import 'package:dorilla_games/core/extension/context/context_extension.dart';
@@ -29,18 +29,18 @@ class GameContentSample extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              SizedBox(
-                height: 300,
-                width: context.widthFourty,
-                child: slider.CarouselSlider(
-                  items: images,
-                  options: slider.CarouselOptions(
-                    autoPlay: true,
-                    viewportFraction: 1,
-                    aspectRatio: 1.3,
-                  ),
-                ),
-              ),
+              // SizedBox(
+              //   height: 300,
+              //   width: context.widthFourty,
+              //   child: slider.CarouselSlider(
+              //     items: images,
+              //     options: slider.CarouselOptions(
+              //       autoPlay: true,
+              //       viewportFraction: 1,
+              //       aspectRatio: 1.3,
+              //     ),
+              //   ),
+              // ),
               Column(
                 children: [
                   TitleMediumCard(text: appName),

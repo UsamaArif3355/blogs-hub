@@ -1,4 +1,4 @@
-import 'package:carousel_slider/carousel_slider.dart' as slider;
+// import 'package:carousel_slider/carousel_slider.dart' as slider;
 import 'package:dorilla_games/core/extension/context/context_extension.dart';
 import 'package:dorilla_games/core/extension/padding/project_pads.dart';
 import 'package:dorilla_games/views/_products/widgets/card/games_content_card.dart';
@@ -19,17 +19,17 @@ class DesktopGamesContent extends StatelessWidget {
     return Row(
       children: [
         const Spacer(flex: 4),
-        SizedBox(
-          height: context.carouselSliderHeight,
-          width: context.carouselSliderWidth,
-          child:slider. CarouselSlider(
-            items: images,
-            options:slider. CarouselOptions(
-              autoPlay: true,
-              viewportFraction: 1,
-            ),
-          ),
-        ),
+        // SizedBox(
+        //   height: context.carouselSliderHeight,
+        //   width: context.carouselSliderWidth,
+        //   child:slider. CarouselSlider(
+        //     items: images,
+        //     options:slider. CarouselOptions(
+        //       autoPlay: true,
+        //       viewportFraction: 1,
+        //     ),
+        //   ),
+        // ),
         const Spacer(flex: 15),
         SizedBox(
           width: context.halfWidth,
